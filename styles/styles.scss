@@ -306,7 +306,7 @@ section {
                         content: "";
                         width: 40%;
                         height: 1px;
-                        background-color: rgba($color: #ffffff, $alpha: 0.8);
+                        background-color: rgba($color: var(--color-grey0), $alpha: 0.8);
                         display: block;
                         margin: 10px auto;
                     }
@@ -320,7 +320,7 @@ section {
                 .stat-desc {
                     font-size: 0.85rem;
                     font-weight: 400;
-                    color: rgba($color: #ffffff, $alpha: 0.7);
+                    color: rgba($color: var(--color-grey0), $alpha: 0.7);
                 }
             }
         }
