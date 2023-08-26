@@ -418,6 +418,7 @@ section {
   position: relative;
   border-radius: 15px;
   overflow: hidden;
+  display: none;
 }
 .portfolios .port-item:hover .port-body {
   right: 0;
@@ -476,6 +477,15 @@ section {
 }
 .portfolios .port-item .port-body .port-buttons .btn-con.second .main-btn:hover::before {
   background-color: var(--color-grey-3);
+}
+
+.btn-portfolio {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.btn-portfolio .btn-con.load-more .main-btn, .btn-portfolio .btn-con.load-less .main-btn {
+  padding: 10px 30px !important;
 }
 
 .portfolio-item:hover .hover-items {
@@ -841,6 +851,10 @@ section {
     grid-template-columns: repeat(1, 1fr);
   }
   .about-stats .stats-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .portfolios {
     display: flex;
     flex-direction: column;
   }

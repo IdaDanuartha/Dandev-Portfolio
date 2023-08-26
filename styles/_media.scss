@@ -163,6 +163,11 @@
         flex-direction: column;     
     }
 
+    .portfolios{
+        display: flex;
+        flex-direction: column;  
+    }
+
     .timeline{
         grid-template-columns: repeat(1, 1fr);
     }

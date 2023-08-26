@@ -406,6 +406,7 @@ section {
         position: relative;
         border-radius: 15px;
         overflow: hidden; 
+        display: none;
         &:hover .port-body {
             right: 0;
             overflow-y: scroll;
@@ -462,6 +463,15 @@ section {
                 }            
              }
         }
+    }
+}
+
+.btn-portfolio {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    .btn-con.load-more .main-btn, .btn-con.load-less .main-btn {
+        padding: 10px 30px !important;
     }
 }
 
