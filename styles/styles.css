@@ -337,7 +337,7 @@ section {
   padding: 3.5rem 0;
   position: relative;
 }
-.stats-title::before {
+.stats-title.first::before {
   content: "";
   position: absolute;
   left: 50%;
