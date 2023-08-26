@@ -470,6 +470,9 @@ section {
     display: flex;
     justify-content: center;
     margin-top: 30px;
+    .main-btn {
+        cursor: pointer;
+    }
     .btn-con.load-more .main-btn, .btn-con.load-less .main-btn {
         padding: 10px 30px !important;
     }

@@ -484,6 +484,9 @@ section {
   justify-content: center;
   margin-top: 30px;
 }
+.btn-portfolio .main-btn {
+  cursor: pointer;
+}
 .btn-portfolio .btn-con.load-more .main-btn, .btn-portfolio .btn-con.load-less .main-btn {
   padding: 10px 30px !important;
 }
