@@ -455,11 +455,12 @@ section {
 }
 .portfolios .port-item .port-body .port-tags .tag-item {
   margin-right: 5px;
-  background-color: var(--color-grey0);
-  color: var(--color-secondary);
+  text-transform: uppercase;
+  background-color: var(--color-secondary);
+  color: var(--color-grey0);
   padding: 2px 10px;
   border-radius: 10px;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 0.8rem;
 }
 .portfolios .port-item .port-body .port-buttons {
