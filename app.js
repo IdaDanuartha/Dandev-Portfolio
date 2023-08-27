@@ -20,7 +20,7 @@ $(document).ready(function() {
     $(".load-less").hide()
 
     $(".load-more").on("click", function() {
-        $(".port-item:hidden").slice(0, 3).show();
+        $(".port-item:hidden").slice(0, 6).show();
 
         if($(".port-item:hidden").length == 0) {
             $(".load-more").hide();
