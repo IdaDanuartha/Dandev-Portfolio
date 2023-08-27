@@ -132,6 +132,13 @@
             }
         }
     }
+
+    .btn-portfolio {
+        .main-btn {        
+            position: relative;
+            top: -100px;
+        }
+    }
 }
 
 @media (max-width:660px){
